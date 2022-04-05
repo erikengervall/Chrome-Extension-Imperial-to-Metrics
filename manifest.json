@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+
+  "name": "Imperial to Metric",
+  "description": "Translates Imperic to Metric",
+  "version": "1",
+
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://*/*"]
+    }
+  ]
+}
